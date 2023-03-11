@@ -1,0 +1,22 @@
+.footer {
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 0 auto;
+    padding: 60px 0 26px 0;
+    text-align: center;
+
+    &_mentions {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .footer_logo{
+        margin-bottom: 24px;
+    }
+    .footer_mentions {
+        font-size: 0.75rem;
+    }
+}

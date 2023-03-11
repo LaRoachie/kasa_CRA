@@ -1,0 +1,16 @@
+.about-page {
+    .collapse {
+        width: 80%;
+        margin: 31px auto 0;
+    }
+
+    @media screen and (max-width: 769px) {
+        .collapse {
+            width: 100%;
+        }
+
+        .banner-container {
+            height: 223px;
+        }
+    }
+}

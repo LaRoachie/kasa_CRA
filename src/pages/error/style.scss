@@ -1,0 +1,47 @@
+.error-page {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 40px;
+
+    .error-title {
+        font-size: clamp(96px, 10rem, 288px);
+        color: var(--primary-color);
+        font-weight: 700;
+        text-align: center;
+        margin: 140px auto 16px;
+    }
+
+    .error-message {
+        font-size: 2.25rem;
+        color: var(--primary-color);
+        text-align: center;
+        margin-bottom: 124px;
+    }
+
+    .error-link {
+        display: block;
+        font-size: 1.125rem;
+        color: var(--primary-color);
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    @media screen and (max-width: 769px) {
+        width: auto;
+        padding: 20px;
+
+        .error-title {
+            font-size: 6rem;
+            margin-bottom: 20px;
+        }
+
+        .error-message {
+            font-size: 1.125rem;
+            margin-bottom: 100px;
+        }
+
+        .error-link {
+            font-size: 0.875rem;
+        }
+    }
+}
